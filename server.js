@@ -8,10 +8,11 @@ app.use(parser.json());
 // Activer CORS pour toutes les requêtes
 app.use(cors());
 
-// Définir une route GET pour /hello
-app.get('/hello', (req, res) => {
-  res.send({message : "yaatk aasba"});
-});
+
+
+app.get('/dorra', (req, res) => {
+    res.send({message : "nheebk barcha y dardourty"});
+  });
 
 // Lancer le serveur sur le port 3000
 const PORT = 3000;
